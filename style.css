@@ -1,15 +1,33 @@
 /* Base Styles */
 body {
-  color: royalblue;
+  color: #332d29;
   text-align: center;
-  background-color: bisque;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: #fdf9f4;
+  font-family:  Georgia, serif;
 }
 
 /* Typography */
 
 /* Links & Accents */
-
+.accent {
+  color: #c2456b;
+}
+nav ul {
+  list-style: none; 
+  padding: 0; 
+  display: flex; 
+  gap: 24px;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none; 
+  color: #332d29; 
+  padding: 8px 14px; 
+  border-radius: 4px;
+}
+nav a:hover{
+  color: #c2456b;
+}
 /* Images */
 
 /* Hero Section */
